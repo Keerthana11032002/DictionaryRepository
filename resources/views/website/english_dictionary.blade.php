@@ -3,8 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
-        <meta name="title" content="All in one language dictionary conversion with a word or term" />
-        <mete name="description" content="Track down the meaning of any word in any other language in this All-in-one-language dictionary" />
+        @php 
+            $from = $from.' to'??'one language to';
+            $to = $to??'another language';
+            $word = !empty($search)?$search:(!empty($letter)?$letter:'word');
+        @endphp            
+        <meta name="title" content="Translate a {{$word}} meaning from {{$from}} {{$to}}." />
+        <mete name="description" content="Consider the Dixxnary web application in knowing the synonym of a {{$word}}, and also translate it into {{$to}} language with the functionality of a Dictionary" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>Dictionary</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">

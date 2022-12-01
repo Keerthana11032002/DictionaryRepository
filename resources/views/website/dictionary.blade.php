@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
-        <meta name="title" content="Search the meaning of a word with translation into other language" />
-        <mete name="description" content="Moreover, on getting just the synonyms of a word; one can click on a word to gather the relative words and their meanings in different forms - Dictionary" />
+        <meta name="title" content="Search the meaning of a {{$word}} with translation in {{$to}}." />
+        <mete name="description" content="Moreover, on getting just the synonyms of a word; one can click on a {{$word}} to gather the relative words and their meanings in different forms - Dictionary" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>Dictionary</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
