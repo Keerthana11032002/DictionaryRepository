@@ -1,0 +1,220 @@
+#navbar .navbar-nav{
+  padding-left: 833px;
+}
+#navbar .active{
+  background-color: #f1eff5;
+}
+#navbar .bg-light{
+  height: 60px;
+  background-color:white !important;
+}
+#topbar .container{
+    width:100%;
+    padding-right:13px;
+    background-color: rgb(23, 54, 204);
+    border-radius:16px;
+}
+#topbar .justify-content-center{
+  padding-bottom: 50px;
+  color:white;  
+  padding-top: 20px;
+}
+#topbar .row.col-md-4{
+  padding-top: 60px;
+  padding-bottom:30px;
+  /* padding: 23px; */
+  width: 46%; 
+  padding-left: 34px;
+}
+.col-md-4 {
+  /* flex: 0 0 auto; */
+  /* width: 33.33333333%; */
+  padding-left: 20px;
+}
+#topbar .form-select{
+  width: 358px;
+  height: 50px;
+  background-color:white ;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+  #topbar .row.col-md-6{
+    padding-top: 60px;
+    padding-bottom:30px;
+    padding: 23px;
+    width: 46%;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 45%;
+    padding-bottom:30px;
+}
+  #topbar .me-2{
+    width: 500px;
+    height: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  #topbar .row.col-md-2{
+    padding-top: 35px;
+    padding-right: 33px;
+  }
+  .col-md-2 {
+    /* padding-right: 33px; */
+    padding-left: 20px;
+  }
+#topbar .src{
+  background-color: yellow;
+  border-color: yellow;
+  color: black;
+  width:200px;
+  height: 50px;
+  font-size: 26px;
+}
+/* #topbar .bg-light {
+  background-color:  rgb(23, 54, 204)!important;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding-bottom: 43px;
+} */
+.body{
+  font-family: ui-sans-serif!important;
+  font-style:bold;
+}
+#head .bg-light{
+  height: 80px;
+  background-color:white !important;
+  padding-left: 440px;
+}
+.form-control {
+  font-size: 1.5rem;
+}
+.form-select {
+  font-size: 1.5rem;
+}
+#head .card{
+  width: 250px;
+  height: 50px;
+  background-color:white;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding-left: 3px;
+  border-color: white;
+
+}
+.navbar-nav-scroll{
+  font-size: 20px;
+}
+#main .card{
+  margin-bottom: 35px;
+  /* box-shadow:blue; */
+}
+#main .span span{
+  text-align:center;
+  font-size: 41px;
+  padding-bottom: 26px;
+  padding-left: 470px;
+}
+#main .fas {
+  font-weight: 900;
+  padding-top: 20px;
+  padding-left: 43px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+#main .col-md-9{
+  padding-left: 20px;
+}
+.col-md-9 .card{
+  /* border: 1px solid; */
+  /* padding: 10px; */
+  box-shadow: 5px 10px 18px rgb(233 230 243)
+}
+#main .col-md-3{
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 20px;
+}
+#main .click{
+  cursor: pointer;
+}
+#main .col-md-8{
+  padding-left: 30px;
+  padding-top: 16px;
+}
+#main .align-items-sm-center {
+  padding-top: 56px;
+  padding-right: 450px;
+
+}
+#main .col-md-12{
+  padding-bottom: 2px;
+  color:white;  
+  padding-top: 2px;
+  background-color:rgb(11, 11, 238);
+  padding-left:20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+a {
+  color: #e7eaef;
+  text-decoration: double;
+  padding-left: 10px;
+}
+.active>.page-link, .page-link.active {
+  z-index: 1;
+  color: var(--bs-pagination-active-color);
+  background-color: #1507e7;
+  border-color: #0d14fd;
+}
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+}
+.text-muted {
+  display: none;
+}
+.fa-copy:before {
+  color: black;
+}
+
+
+#top .container {
+    width: 100%;
+    padding-right: 51px;
+    background-color: rgb(23, 54, 204);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    color: white;
+}
+#main .col-md-9 {
+  padding-left: 20px;
+  padding-top: 16px;
+}
+#top{
+  padding-top: 35px;
+}
+#top .col-md-2 .card{
+  background-color:white;
+  color:black;
+}
+#top .col-md-2 {
+  padding-left: 52px;
+  width: 171px;
+}
+
+#top a {
+    color: #000409;
+    text-decoration: double;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+#top .urlclass {
+  padding-top: 4px;
+}
