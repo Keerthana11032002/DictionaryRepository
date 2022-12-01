@@ -9,7 +9,7 @@
             $word = !empty($search)?$search:(!empty($letter)?$letter:'word');
         @endphp            
         <meta name="title" content="Translate a {{$word}} meaning from {{$from}} {{$to}}." />
-        <mete name="description" content="Consider the Dixxnary web application in knowing the synonym of a {{$word}}, and also translate it into {{$to}} language with the functionality of a Dictionary" />
+        <mete name="description" content="Consider the Dictionary web application in knowing the synonym of a {{$word}}, and also translate it into {{$to}} language with the functionality of a Dictionary" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>Dictionary</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
